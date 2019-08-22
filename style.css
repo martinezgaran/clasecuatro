@@ -1,0 +1,24 @@
+*{
+	font-size: 24px;
+}
+
+
+s{
+	color: orange;
+}
+
+
+/* El .  es para la CLASE el # es para el ID */
+.mifoto {
+	filter: grayscale(1);
+	transition: all linear 1s;
+	 border-radius: 50%;
+
+}
+/* PARA PASAR EL MOUSE POR ENCIMA Y QUE LA IMAGEN CAMBIE 
+COLOR Y TAMAÑO */
+
+.mifoto:hover{
+	filter: grayscale(0);
+	transform: rotate(50deg) scale(1.3,1.3);
+}
